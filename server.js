@@ -13,10 +13,6 @@ var PORT = 3000;
 
 var app = express();
 
-// Database configuration
-var databaseUrl = "mongoHeadlines";
-var collections = ["Article"];
-
 // Logging requests
 app.use(logger("dev"));
 

@@ -9,7 +9,7 @@ let exphbs = require("express-handlebars");
 
 var db = require("./models");
 
-var PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 var app = express();
 
